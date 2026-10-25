@@ -22,16 +22,16 @@ object SiteManager {
     private val defaultSite = VideoSite(
         id = AppConstants.DEFAULT_SITE_ID,
         name = "123AV 主站",
-        baseUrl = "https://123av.com",
+        baseUrl = "https://123av.org",
         description = "主站点",
         isDefault = true
     )
 
     private val availableSitesList = listOf(
         VideoSite(
-            id = "123av_com",
+            id = "123av_org",
             name = "123AV 主站",
-            baseUrl = "https://123av.com",
+            baseUrl = "https://123av.org",
             description = "主站点",
             isDefault = true
         ),

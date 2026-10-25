@@ -45,7 +45,7 @@ object AppConstants {
     const val MAX_WATCH_HISTORY = 50
     
     const val KEY_SELECTED_SITE_ID = "selected_site_id"
-    const val DEFAULT_SITE_ID = "123av_com"
+    const val DEFAULT_SITE_ID = "123av_org"
     
     const val COOKIE_PREFIX = "cookie_"
     const val COOKIE_COUNT_KEY = "cookie_count"
