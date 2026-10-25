@@ -389,7 +389,7 @@ fun AboutDialog(
                     modifier = Modifier.padding(bottom = 12.dp)
                 )
                 Text(
-                    text = "123AV是一个专注于提供优质视频内容的视频网站。本应用程序与 www.123av.com 及其关联方无任何隶属、合作或授权关系，特此声明！",
+                    text = "123AV是一个专注于提供优质视频内容的视频网站。本应用程序与 123av.org 及其关联方无任何隶属、合作或授权关系，特此声明！",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.padding(bottom = 12.dp)
@@ -420,11 +420,11 @@ fun AboutDialog(
                 )
                 HorizontalDivider(modifier = Modifier.padding(vertical = 12.dp))
                 Text(
-                    text = "官方网站：www.123av.com",
+                    text = "官方网站：123av.org",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.primary,
                     modifier = Modifier.clickable {
-                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.123av.com"))
+                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://123av.org"))
                         context.startActivity(intent)
                     }
                 )
